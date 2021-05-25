@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.anagram {
+  border-top: 1px solid #dcdcdc;
+}
+.btn {
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  padding: 8px 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  background-color: #00ab6b;
+  color: #fefefe;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #01a066;
+  transition: all 0.25s ease;
+}
+.input {
+  border: 1px solid #00ab6b;
+  border-radius: 4px;
+  padding: 8px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
